@@ -1,0 +1,15 @@
+C:\Users\Smirnov_ON\Desktop\studyC#SV\homework\homework_7\task_50\bin\Debug\net6.0\task_50.exe
+C:\Users\Smirnov_ON\Desktop\studyC#SV\homework\homework_7\task_50\bin\Debug\net6.0\task_50.deps.json
+C:\Users\Smirnov_ON\Desktop\studyC#SV\homework\homework_7\task_50\bin\Debug\net6.0\task_50.runtimeconfig.json
+C:\Users\Smirnov_ON\Desktop\studyC#SV\homework\homework_7\task_50\bin\Debug\net6.0\task_50.dll
+C:\Users\Smirnov_ON\Desktop\studyC#SV\homework\homework_7\task_50\bin\Debug\net6.0\task_50.pdb
+C:\Users\Smirnov_ON\Desktop\studyC#SV\homework\homework_7\task_50\obj\Debug\net6.0\task_50.csproj.AssemblyReference.cache
+C:\Users\Smirnov_ON\Desktop\studyC#SV\homework\homework_7\task_50\obj\Debug\net6.0\task_50.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Smirnov_ON\Desktop\studyC#SV\homework\homework_7\task_50\obj\Debug\net6.0\task_50.AssemblyInfoInputs.cache
+C:\Users\Smirnov_ON\Desktop\studyC#SV\homework\homework_7\task_50\obj\Debug\net6.0\task_50.AssemblyInfo.cs
+C:\Users\Smirnov_ON\Desktop\studyC#SV\homework\homework_7\task_50\obj\Debug\net6.0\task_50.csproj.CoreCompileInputs.cache
+C:\Users\Smirnov_ON\Desktop\studyC#SV\homework\homework_7\task_50\obj\Debug\net6.0\task_50.dll
+C:\Users\Smirnov_ON\Desktop\studyC#SV\homework\homework_7\task_50\obj\Debug\net6.0\refint\task_50.dll
+C:\Users\Smirnov_ON\Desktop\studyC#SV\homework\homework_7\task_50\obj\Debug\net6.0\task_50.pdb
+C:\Users\Smirnov_ON\Desktop\studyC#SV\homework\homework_7\task_50\obj\Debug\net6.0\task_50.genruntimeconfig.cache
+C:\Users\Smirnov_ON\Desktop\studyC#SV\homework\homework_7\task_50\obj\Debug\net6.0\ref\task_50.dll
