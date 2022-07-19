@@ -13,7 +13,7 @@
 }
 void PrintMatrix (double [,] matrix)
 {
-    
+    List<int> sumList = new List<int>();
     int length = matrix.GetLength(1);
     int height = matrix.GetLength(0);
     for(int i =0; i<height; i++)
