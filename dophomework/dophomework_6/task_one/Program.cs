@@ -27,5 +27,6 @@ void ConclusionBinary(string sumString)
  }
 Console.WriteLine("Напишите десятичное число: ");
 string number = Console.ReadLine();
-PrintMatrix(number);
+Console.WriteLine($"{number}-(в десятичной)");
 ConclusionBinary(number);
+Console.Write("-(В двоичной)");
