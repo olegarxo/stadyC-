@@ -44,23 +44,19 @@ int MaxIndex(int[,] sumMassive)
 {
     int lines = sumMassive.GetLength(0);
     int columns = sumMassive.GetLength(1);
-    int sum = 0;
     int maxSum = 0;
     int index = 1;
     for(int i = 0;i < lines; i++)
     {
+    int sum = 0;
+        for(int j = 0; j < columns; j++)
+        {
+        sum+=sumMassive[i,j];
         if(maxSum < sum)
         {
             maxSum = sum;
             index = i;
         }
-        else{
-
-        }
-
-        for(int j = 0; j < columns; j++)
-        {
-            sum+=sumMassive[i,j];
         }
 
     }
@@ -71,5 +67,5 @@ int[,] rectangle = new int[rectangleSize[0],rectangleSize[1]];
 EnteMatrix(rectangle);
 PrintMatrix(rectangle);
 int index = MaxIndex(rectangle);
-Console.WriteLine($"максимальная сумма элементов в {index} строке.");
+Console.WriteLine($"максимальная сумма элементов в {index + 1} строке.");
 

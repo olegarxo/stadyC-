@@ -4,9 +4,9 @@ void SnakeMassive(int[,] samMassive)
 {
     int length = samMassive.Length;
     int collums = samMassive.GetLength(1);
-    int lines = samMassive.GetLength(0);
+    int line s = samMassive.GetLength(0);
     samMassive[0,0] = 1;
-    for(int move = 1, index = 0, number = 1; number < length;);  
+    for(int move = 1, index = 0, number = 1; number < length;)
     {
         for(int i = index,j = index; i < collums - index; i++)
         {
@@ -47,3 +47,5 @@ void PrintMatrix(int[,] sumMassive)
 int [,] matrix = new int[8,8];
 SnakeMassive(matrix);
 PrintMatrix(matrix);
+var tamp = (6,8);
+cobs
