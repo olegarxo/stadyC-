@@ -19,7 +19,7 @@ void PrintMatrix(int[,] sumMassive)
     int columns = sumMassive.GetLength(1);
     for(int i = 0; i < lines;i++)
     {
-        for(int j =0; j < columns; j++)
+        for(int j =0; j < columns; j++) 
         {
            Console.Write($"{sumMassive[i,j]}\t");
            

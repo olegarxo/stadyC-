@@ -47,5 +47,3 @@ void PrintMatrix(int[,] sumMassive)
 int [,] matrix = new int[8,8];
 SnakeMassive(matrix);
 PrintMatrix(matrix);
-var tamp = (6,8);
-cobs
