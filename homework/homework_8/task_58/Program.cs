@@ -4,7 +4,7 @@ void SnakeMassive(int[,] samMassive)
 {
     int length = samMassive.Length;
     int collums = samMassive.GetLength(1);
-    int line s = samMassive.GetLength(0);
+    int lines = samMassive.GetLength(0);
     samMassive[0,0] = 1;
     for(int move = 1, index = 0, number = 1; number < length;)
     {
