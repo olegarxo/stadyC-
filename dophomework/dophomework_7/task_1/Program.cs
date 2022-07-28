@@ -36,9 +36,8 @@ void Multiplicationmatrix(int[,] matrixOne,int[,] matrixTwo)
         {   int k =0;
             for(int j = 0; j < secondColums; j++)
             {
-                mainMatrix[i,j] = matrixOne[k,i] * matrixTwo[i,j]; 
+                mainMatrix[i,j] = matrixOne[i,k] * matrixTwo[i,j]; 
             }
-            k++;
         }
         PrintMatrix(mainMatrix);
     }
