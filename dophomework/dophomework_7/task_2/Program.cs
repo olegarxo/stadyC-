@@ -30,12 +30,12 @@ void SumMoreСomposition(int[,] sumMatrix)
     int line = sumMatrix.GetLength(0);
     int columns = sumMatrix.GetLength(1);
     List<int> number = new List<int>();
+    int sum = 0;
+    int composition = 1;
     for (int i = 0; i < line; i++)
     {
-        for (int j = 0; j < columns; j++)
+        for (int j = 0; j < columns;sum = 0,composition = 1,j++)
         {
-            int sum = 0;
-            int composition = 1;
             int tamp = sumMatrix[i,j];
             while(tamp >= 1 )
             {
