@@ -63,3 +63,4 @@ int[,] matrix = new int[5,5];
 EnterMutrix(matrix);
 PrintMatrix(matrix);
 FindWayFirst(matrix);
+open
