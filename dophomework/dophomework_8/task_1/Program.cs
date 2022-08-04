@@ -31,14 +31,29 @@ void ItemReplacement (int[,] matrix)
     int columns = matrix.GetLength(1);
     int line = matrix.GetLength(0);
   
-    if (columns == line)
+    if (columns == line || columns < line)
     {
-        for(int i = line - 1, k = 0;i > 0; i--, k++)
+        int i = line - 1;
+        int k = 0;
+        for(;i > 0; i--, k++)
         {
             matrix[0,k] = matrix[k,k];
             matrix[line - 1,k] = matrix[i,k]; 
         }
-        (matrix[0,columns - 1],matrix[line - 1,columns - 1]) = (matrix[line - 1,columns - 1],matrix[0,columns - 1]);
+        i = line - 1;
+        k = 0;
+        (matrix[0,columns - 1],matrix[i,columns - 1]) = (matrix[i,columns - 1],matrix[0,columns - 1]);
+    }
+    else
+    {
+        int i = columns - 1;
+        int k = 0;
+        for(;i > 0; i--, k++)
+        {
+            matrix[0,k] = matrix[k,k];
+            matrix[columns - 1,k] = matrix[i,k]; 
+        }
+        (matrix[0,i],matrix[i,i]) = (matrix[line - 1,i],matrix[0,i]);   
     }    
 }
 Random random = new Random();
