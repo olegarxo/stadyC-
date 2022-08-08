@@ -57,8 +57,8 @@ void ItemReplacement (int[,] matrix)
     }    
 }
 Random random = new Random();
-int line = random.Next(4,5);
-int colum = random.Next(4,5);
+int line = random.Next(4,15);
+int colum = random.Next(4,12);
 int[,] matrix = new int[line,colum];
 EnterMutrix(matrix);
 PrintMatrix(matrix);
