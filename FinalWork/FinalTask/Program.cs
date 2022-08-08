@@ -17,7 +17,7 @@
         int length = matrix.Length;
         for(int i = 0, k = 0; i < length; i++)
         {
-            if(length <= 3)
+            if(matrix[i].Length <= 3)
             {
                 matrixSecond[k] = matrix[i];
                 k++;
