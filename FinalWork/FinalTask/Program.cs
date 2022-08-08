@@ -4,7 +4,6 @@
     static void NumberLessThree(string[] matrix, out int count)
     {
         count = 0;
-        int length = matrix.Length;
         foreach (string n in matrix)
         {
             if (n.Length <= 3)
@@ -18,7 +17,7 @@
         int length = matrix.Length;
         for(int i = 0, k = 0; i < length; i++)
         {
-            if(matrix[i].Length <= 3)
+            if(length <= 3)
             {
                 matrixSecond[k] = matrix[i];
                 k++;
@@ -62,7 +61,10 @@
         string[] OutNumber = new string[countLessThree];
         NumberLessThree(enterNumber,OutNumber);
         if(OutNumber.Length == 0)
+        {
             Console.WriteLine("Нет строк с количеством символов меньше трех");
+            return;
+        }
         int tamp = 1;
         Console.WriteLine("Всего строк удовлетворяющих условию:" + OutNumber.Length);
         foreach(string n in OutNumber)
